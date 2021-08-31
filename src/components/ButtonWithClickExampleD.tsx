@@ -2,7 +2,7 @@ function ButtonWithClickExampleD(): JSX.Element {
   return (
     <button
       onClick={function () {
-        console.log("Hello from button D!");
+        window.open("https://www.w3schools.com");
       }}
     >
       My handler is an anonymous function
